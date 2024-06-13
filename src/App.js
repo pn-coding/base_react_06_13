@@ -1,25 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
+import Header from "./components/ex02/Header";
+import Footer from "./components/ex02/Footer";
+import { ExportEx, ExportEx2 } from "./components/ex03/ExportEx";
+import { PropEx } from "./components/ex03/PropEx";
+import { MapFnEx } from "./components/ex04/MapFnEx";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      {/* <Header />
+      <Footer /> */}
+      {/* 2일차 */}
+
+      {/* <ExportEx />
+      <ExportEx2 /> */}
+      {/* <PropEx /> */}
+      {/* 3일 */}
+
+      <MapFnEx />
+    </>
   );
-}
+};
 
 export default App;
+
+// *JSX 문법
+// =>react에서 사용하는 문법
+// =>js 파일에서 html 태그를 사용할 수 있음
+// =>반드시 태그를 닫아줘야됨
+// =>반드시 부모가 있어야됨
+
+// *fragment
+// =>부모역할을 하는 태그
+// =><></> 꺽쇠 괄호만 사용함

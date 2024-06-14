@@ -42,7 +42,7 @@ export const MapFnEx = () => {
         </div>
       ))} */}
 
-      <Ex01 />
+      <Ex01 urlData={data} />
     </div>
   );
 };

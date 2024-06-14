@@ -3,6 +3,7 @@ import Footer from "./components/ex02/Footer";
 import { ExportEx, ExportEx2 } from "./components/ex03/ExportEx";
 import { PropEx } from "./components/ex03/PropEx";
 import { MapFnEx } from "./components/ex04/MapFnEx";
+import { Ex05 } from "./components/ex05/Ex05";
 
 const App = () => {
   return (
@@ -16,7 +17,10 @@ const App = () => {
       {/* <PropEx /> */}
       {/* 3일 */}
 
-      <MapFnEx />
+      {/* <MapFnEx /> */}
+      {/* 4일차 */}
+
+      <Ex05 />
     </>
   );
 };

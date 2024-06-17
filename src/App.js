@@ -4,6 +4,7 @@ import { ExportEx, ExportEx2 } from "./components/ex03/ExportEx";
 import { PropEx } from "./components/ex03/PropEx";
 import { MapFnEx } from "./components/ex04/MapFnEx";
 import { Ex05 } from "./components/ex05/Ex05";
+import { FontEx } from "./components/ex06/FontEx";
 
 const App = () => {
   return (
@@ -20,7 +21,10 @@ const App = () => {
       {/* <MapFnEx /> */}
       {/* 4일차 */}
 
-      <Ex05 />
+      {/* <Ex05 /> */}
+      {/* 5일차 */}
+
+      {/* <FontEx /> */}
     </>
   );
 };

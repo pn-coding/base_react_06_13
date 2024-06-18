@@ -5,6 +5,7 @@ import { PropEx } from "./components/ex03/PropEx";
 import { MapFnEx } from "./components/ex04/MapFnEx";
 import { Ex05 } from "./components/ex05/Ex05";
 import { FontEx } from "./components/ex06/FontEx";
+import { MusicApp } from "./components/ex07/MusicApp";
 
 const App = () => {
   return (
@@ -25,6 +26,8 @@ const App = () => {
       {/* 5일차 */}
 
       {/* <FontEx /> */}
+
+      <MusicApp />
     </>
   );
 };

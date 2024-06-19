@@ -13,7 +13,7 @@ export const GlobalStyled = createGlobalStyle`
     }
 
     body{
-        background-color: #555;
+        /* background-color: #555; */
         font-family: "Noto Sans KR", sans-serif;
     }
 `;

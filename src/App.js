@@ -6,6 +6,7 @@ import { MapFnEx } from "./components/ex04/MapFnEx";
 import { Ex05 } from "./components/ex05/Ex05";
 import { FontEx } from "./components/ex06/FontEx";
 import { MusicApp } from "./components/ex07/MusicApp";
+import { Ex08 } from "./components/ex08/Ex08";
 
 const App = () => {
   return (
@@ -27,7 +28,10 @@ const App = () => {
 
       {/* <FontEx /> */}
 
-      <MusicApp />
+      {/* <MusicApp /> */}
+      {/* 7일차 */}
+
+      <Ex08 />
     </>
   );
 };

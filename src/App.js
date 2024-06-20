@@ -7,6 +7,7 @@ import { Ex05 } from "./components/ex05/Ex05";
 import { FontEx } from "./components/ex06/FontEx";
 import { MusicApp } from "./components/ex07/MusicApp";
 import { Ex08 } from "./components/ex08/Ex08";
+import { Ex09 } from "./components/ex09/Ex09";
 
 const App = () => {
   return (
@@ -31,7 +32,10 @@ const App = () => {
       {/* <MusicApp /> */}
       {/* 7일차 */}
 
-      <Ex08 />
+      {/* <Ex08 /> */}
+      {/* 8일차 */}
+
+      <Ex09 />
     </>
   );
 };

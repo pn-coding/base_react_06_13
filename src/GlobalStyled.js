@@ -12,6 +12,16 @@ export const GlobalStyled = createGlobalStyle`
         box-sizing: border-box;
     }
 
+    a{
+        text-decoration: none;
+        color: ${colors.mainBlack}
+    }
+
+    img{
+        width: 100%;
+        display: block;
+    }
+
     body{
         /* background-color: #555; */
         font-family: "Noto Sans KR", sans-serif;

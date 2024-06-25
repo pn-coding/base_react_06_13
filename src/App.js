@@ -8,6 +8,7 @@ import { FontEx } from "./components/ex06/FontEx";
 import { MusicApp } from "./components/ex07/MusicApp";
 import { Ex08 } from "./components/ex08/Ex08";
 import { Ex09 } from "./components/ex09/Ex09";
+import { Router } from "./components/ex11/Router";
 
 const App = () => {
   return (
@@ -35,7 +36,9 @@ const App = () => {
       {/* <Ex08 /> */}
       {/* 8일차 */}
 
-      <Ex09 />
+      {/* <Ex09 /> */}
+
+      <Router />
     </>
   );
 };

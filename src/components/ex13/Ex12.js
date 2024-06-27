@@ -16,11 +16,16 @@ export const Ex12 = () => {
     formState: { errors, isValid },
   } = useForm();
 
-  const loginHandler = () => {
-    console.log("서브밋 이벤트 등록됨");
+  const loginHandler = (data) => {
+    // console.log(data);
+    const { username, password } = data;
+    // const inputUserName = data.username;
+    // const inputPassword = data.password;
+    console.log(`username: ${username}`);
+    console.log(`password: ${password}`);
   };
 
-  console.log(isValid);
+  // console.log(isValid);
 
   return (
     <div>
@@ -28,6 +33,10 @@ export const Ex12 = () => {
         <input
           {...register("username", {
             required: "아이디는 필수 입니다.",
+            minLength: {
+              value: 2,
+              message: "아이디는 2자리 이상 작성해 주셔야 합니다.",
+            },
           })}
           type="text"
           placeholder="아이디"
@@ -35,6 +44,14 @@ export const Ex12 = () => {
         <input
           {...register("password", {
             required: "패스워드는 필수 입니다.",
+            minLength: {
+              value: 8,
+              message: "패스워드는 8자리 이상 작성해 주셔야 합니다.",
+            },
+            pattern: {
+              value: /^(?=.*[a-zA-Z])(?=.*[!@#$%^*+=-])(?=.*[0-9]).{8,15}$/,
+              message: "영문 숫자 특수기호 조합 8자리 이상 작성해 주세요",
+            },
           })}
           type="password"
           placeholder="패스워드"
